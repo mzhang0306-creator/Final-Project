@@ -20,10 +20,24 @@ ul {
     margin: 0 auto;
 }
 
+
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link--anchor {
+    margin: 0 12px;
+    color: #242424;
+    text-decoration: none;
+
 }
 
 body {

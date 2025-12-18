@@ -55,6 +55,29 @@ ul {
     margin: 32px 0;
 }
 }
+
+.header__description--para {
+    font-size: 32px;
+}
+
+@media (max-width: 640px) {
+  .header__email--input {
+    position: static;
+    padding: 16px 0;
+    padding-left: 32px;
+    line-height: 1.5;
+  }
+}
+
+
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb (229, 231, 235)
+}
+
+
  
 body {
     max-width: 100vw;

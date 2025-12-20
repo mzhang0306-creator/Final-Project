@@ -63,11 +63,11 @@ ul {
     font-size: 72px;
 }
 
-.section__title-2 {
+.section__tag {
     color: #6030b1;
 }
 
-.section__title-3 {
+.section__title {
     margin: 16px 0;
     font-weight: 900px;
     font-size: 48px;
@@ -91,10 +91,18 @@ ul {
     background-color :#6030b1;
     padding: 8px 20px;
     border-radius: 50px;
+    border: none;
     color: white;
+    font-weight: 700;
     text-decoration: none;
     position: absolute;
-
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 8px;
+    cursor: pointer;
+    transition: 300ms;
+    z-index: 9999;
 }
 
 .header__description {
@@ -121,7 +129,7 @@ ul {
     width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
-    padding: 8px 20px;
+    padding: 20px 192px 20px 32px;
     font-size: 16px;
     font-weight: 500;
     z-index: 1;
@@ -138,7 +146,7 @@ ul {
     text-align: left;
 }
 
- 
+
 body {
     max-width: 100vw;
     overflow-x: hidden;
@@ -172,6 +180,9 @@ main {
     margin-bottom: 96px;
 }
 
+.p {
+    font-size: 32px;
+}
 
 /* 
 

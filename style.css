@@ -8,6 +8,7 @@
     color: #243e63;
 }
 
+
 .row__header {
     display: flex;
 }
@@ -146,6 +147,21 @@ ul {
     text-align: left;
 }
 
+.feature__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    display: flex;
+    width: calc(100%/3);
+}
 
 body {
     max-width: 100vw;

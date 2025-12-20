@@ -12,13 +12,6 @@
     display: flex;
 }
 
-.header__description{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1200px; }
 
 ul {
     list-style-type: none;
@@ -85,15 +78,26 @@ ul {
     width: 40%;
 }
 
+.header__email {
+    display: flex;
+    max-width: 448px;
+    width: 100%;
+    position: relative;
+    margin: 32px 0;
+
+}
+
 .header__email--btn {
     background-color :#6030b1;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
     text-decoration: none;
+    position: absolute;
+
 }
 
-.header__description{
+.header__description {
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -109,6 +113,7 @@ ul {
     font-size: 32px;
     text-align: left;
     justify-content: center;
+    margin: 32px 0;
 }
 
 
@@ -123,6 +128,14 @@ ul {
     transition: border-color 300ms;
 }
 
+.header__customers--title {
+    margin-top: 80px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #a0aec0
+}
 
  
 body {
@@ -403,7 +416,6 @@ MOBILE RESPONSIVENESS ↓
     .header__description{
         display: flex;
         flex-direction: column;
-        align-items: center;
         margin: 0 auto;
         width: 100%;
         max-width: 1200px;
@@ -414,7 +426,7 @@ MOBILE RESPONSIVENESS ↓
     }
     header.row {
         flex-direction: column;
-        align-items: center;
+   
     }
     footer {
         padding: 80px 32px;
@@ -450,7 +462,7 @@ MOBILE RESPONSIVENESS ↓
     }
     .header__email--input {
     position: static;
-    padding: 16px 0;
+    padding: 24px 0;
     padding-left: 32px;
     line-height: 1.5;
     }

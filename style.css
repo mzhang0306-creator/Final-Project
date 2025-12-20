@@ -12,6 +12,14 @@
     display: flex;
 }
 
+.header__description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px; }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -393,10 +401,12 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
     
     .header__description{
-        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px;
      }
 
     .btn__menu {

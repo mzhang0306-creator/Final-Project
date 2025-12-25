@@ -375,7 +375,7 @@ QUALITY WORK ↓
     align-items: center;
 }
 
-#quality__description .row {
+.quality__row {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -385,6 +385,14 @@ QUALITY WORK ↓
     font-size: 16px;
     font-weight: 700px;
 }
+
+.img__row{
+    width: 50%;
+    margin-bottom: 32px;
+}
+
+
+
 /* 
 
 STEPS ↓

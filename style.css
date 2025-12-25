@@ -81,7 +81,6 @@ ul {
 
 .header__email {
     display: flex;
-    max-width: 448px;
     width: 100%;
     position: relative;
     margin: 32px 0;

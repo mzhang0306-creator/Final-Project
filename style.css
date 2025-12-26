@@ -46,7 +46,7 @@ ul {
 }
 
 .nav__link--primary {
-    background-color :#6030b1;
+    background-color :#6415ff;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -54,18 +54,24 @@ ul {
 }
 
 .section__title span{
-    color: #6030b1;
+    color: #6415ff;
 }
  .text-purple-2 {
-    color: #6030b1;
+    color: #6415ff;
  }
 
 .section__title {
-    font-size: 72px;
+    margin: 16px 0;
+    font-weight: 900px;
+    font-size: 48px;
 }
 
 .section__tag {
-    color: #6030b1;
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .section__title {
@@ -88,7 +94,7 @@ ul {
 }
 
 .header__email--btn {
-    background-color :#6030b1;
+    background-color :#6415ff;
     padding: 8px 20px;
     border-radius: 50px;
     border: none;
@@ -485,9 +491,9 @@ STEPS ↓
     transform: translateX(50%)
         translateY(50%) scale(1)
         scaleY(1);
-    width: 80px;
+    width: 200px;
     height: 80px;
-    right: 0px;
+    right: 50%;
     bottom: 0px;
     fill: rgb(100, 21, 255);
     --tw-text-opacity: 1;
@@ -663,4 +669,9 @@ MOBILE RESPONSIVENESS ↓
     .section__title {
         line-height: 1.25;
     }
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
+        margin-top: 4px;
+        line-height: 2;
 }

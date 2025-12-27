@@ -476,6 +476,7 @@ STEPS ↓
 .steps__description {
     padding: 32px 0;
     padding-left: 64px;
+    width: 50%;
 }
 
 .steps__img {
@@ -507,6 +508,7 @@ STEPS ↓
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+    width: 50%;
 }
 
 .step__title {
@@ -514,8 +516,17 @@ STEPS ↓
     font-size: 20px;
     color-scheme: #243e63;
     line-height: 1;
+    width: 50%;
 }
 
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 1;
+    width: 50%;
+}
 
 /* 
 

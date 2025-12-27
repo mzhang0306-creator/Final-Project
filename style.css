@@ -391,7 +391,7 @@ QUALITY WORK ↓
     text-transform: uppercase;
 }
 
-.img__row{
+.img__row {
     width: 50%;
     margin-bottom: 32px;
     position: relative;
@@ -477,6 +477,9 @@ STEPS ↓
     padding: 32px 0;
     padding-left: 64px;
     width: 50%;
+    text-align: center;
+    display: flex;
+
 }
 
 .steps__img {
@@ -508,7 +511,7 @@ STEPS ↓
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
-    width: 50%;
+    margin-bottom: 16px;
 }
 
 .step__title {
@@ -516,7 +519,7 @@ STEPS ↓
     font-size: 20px;
     color-scheme: #243e63;
     line-height: 1;
-    width: 50%;
+    margin-bottom: 16px;
 }
 
 .step__para {
@@ -524,13 +527,16 @@ STEPS ↓
     color: #718096;
     margin-top: 12px;
     font-weight: 500;
-    line-height: 1;
-    width: 50%;
+    line-height: 2;
+    margin-bottom: 16px;
 }
 
-/* 
+.step__title--para {
+    flex-direction: column;
+    display: flex;
+}
 
-VALUES ↓
+/* VALUES ↓
 
 */
 
@@ -685,4 +691,5 @@ MOBILE RESPONSIVENESS ↓
         line-height: 2;
         margin-top: 4px;
         line-height: 2;
+    }
 }

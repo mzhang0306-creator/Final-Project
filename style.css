@@ -664,6 +664,7 @@ PRICING ↓
     width: 300px;
     border: 2px solid;
     text-align: center;
+    z-index: 10;
 }
 .
 
@@ -671,6 +672,7 @@ PRICING ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: calc(100%/3);
 }
 
 #pricing .section__para {
@@ -826,6 +828,7 @@ PRICING ↓
 
 .plans__blob {
     position: absolute;
+    z-index: -1;
 }
 /* 
 

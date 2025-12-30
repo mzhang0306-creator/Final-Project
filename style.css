@@ -478,7 +478,6 @@ STEPS ↓
     padding-left: 64px;
     width: 50%;
     text-align: center;
-    display: flex;
 
 }
 
@@ -519,7 +518,6 @@ STEPS ↓
     font-size: 20px;
     color-scheme: #243e63;
     line-height: 1;
-    margin-bottom: 16px;
 }
 
 .step__para {
@@ -534,6 +532,13 @@ STEPS ↓
 .step__title--para {
     flex-direction: column;
     display: flex;
+}
+
+.step {
+    display: flex;
+    gap: 32px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 /* VALUES ↓

@@ -111,6 +111,12 @@ ul {
     z-index: 9999;
 }
 
+.header__email--btn:hover {
+    background-color: #5011cc;
+    transform: translateY(-2px);
+}
+
+
 .header__description {
         display: flex;
         flex-direction: column;
@@ -212,6 +218,10 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav__link--primary:hover {
+    background-color: #5011cc;
+    transform: translateY(-2px);
+}
 
 .btn__menu {
     display: none;
@@ -635,6 +645,15 @@ STEPS ↓
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #5011cc;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
 /*
 
 PRICING ↓
@@ -646,6 +665,66 @@ PRICING ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#pricing .section__para {
+    max-width: 576px;
+    text-align: center;
+    color: #7c8ba1;
+}
+
+#pricing .plans {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#pricing .plan__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2 rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
+    margin-top: 72px;
+}
+
+.plan__target {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+
+#pricing .plan__middle {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 2rem;
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235); 
+}
+
+.plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%,
+     rgb(129, 230, 217) 100%);
+     padding: 0.75rem 2rem;
+     font-weight: 700;
+}
+.plan__stripe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 /* 
@@ -759,6 +838,10 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__img {
         width: 100%;
         max-width: 448px;
+    }
+
+    #pricing .section__para {
+        font-size: 14px;
     }
 }
 

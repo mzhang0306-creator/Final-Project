@@ -659,7 +659,13 @@ STEPS ↓
 PRICING ↓
 
 */
-
+.plan { 
+    position: relative;
+    width: 300px;
+    border: 2px solid;
+    text-align: center;
+}
+.
 
 #pricing .row {
     display: flex;
@@ -671,6 +677,7 @@ PRICING ↓
     max-width: 576px;
     text-align: center;
     color: #7c8ba1;
+    margin-bottom: 64px;
 }
 
 #pricing .plans {
@@ -692,6 +699,7 @@ PRICING ↓
     text-transform: uppercase;
     line-height: 1.625;
     margin-top: 72px;
+    border-top: 2px solid rgb(229, 231, 235);;
 }
 
 .plan__target {
@@ -714,14 +722,54 @@ PRICING ↓
     border-bottom: 2px solid rgb(229, 231, 235); 
 }
 
-.plan__button {
+.plan__button-1 {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%,
      rgb(129, 230, 217) 100%);
      padding: 0.75rem 2rem;
      font-weight: 700;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
-.plan__stripe {
+
+.plan__button-2 {
+    color: #6030b1;
+    background-color: #f7fafc;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 9999px;
+}
+
+
+.plan__button-3 {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%,
+     rgb(254, 178, 178) 100%);
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 9999px;
+}
+
+.plan__stripe-1 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -732,6 +780,19 @@ PRICING ↓
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%,
      rgb(129, 230, 217) 100%);
+}
+
+.plan__stripe-3 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%,
+     rgb(254, 178, 178) 100%);
 }
 
 
@@ -763,6 +824,9 @@ PRICING ↓
     padding: 80px 0;
 }
 
+.plans__blob {
+    position: absolute;
+}
 /* 
 
 TESTIMONIALS ↓

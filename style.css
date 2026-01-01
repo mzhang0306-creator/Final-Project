@@ -712,8 +712,7 @@ PRICING ↓
 }
 
 #pricing .plan__middle {
-    margin-left: -2rem;
-    margin-right: -2rem;
+    border: 2px solid rgb(229, 231, 235);
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
@@ -721,7 +720,7 @@ PRICING ↓
     border-bottom-width: 2px;
     padding: 2rem;
     border-top: 2px solid rgb(229, 231, 235);
-    border-bottom: 2px solid rgb(229, 231, 235); 
+    border-bottom: 2px solid rgb(229, 231, 235);
 }
 
 .plan__button-1 {
@@ -762,7 +761,6 @@ PRICING ↓
     padding: 0.75rem 2rem;
     font-weight: 700;
     width: 100%;
-    border-radius: 9999px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 0.875rem;
@@ -829,6 +827,9 @@ PRICING ↓
 .plans__blob {
     position: absolute;
     z-index: -1;
+    bottom: -55%;
+    left: 65%;
+    width: 20%;
 }
 /* 
 

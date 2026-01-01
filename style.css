@@ -62,7 +62,7 @@ ul {
 
 .section__title {
     margin: 16px 0;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 48px;
 }
 
@@ -76,7 +76,7 @@ ul {
 
 .section__title {
     margin: 16px 0;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 48px;
 }
 
@@ -196,7 +196,7 @@ main {
 
 /* 
 
-NAVBAR ↓
+NAVBAR â†“
 
 */
 
@@ -293,7 +293,7 @@ nav {
 
 /* 
 
-HEADER / ABOUT US ↓
+HEADER / ABOUT US â†“
 
 */
 
@@ -307,7 +307,7 @@ header .row {
 
 /* 
 
-FEATURES ↓
+FEATURES â†“
 
 */
 
@@ -377,7 +377,7 @@ FEATURES ↓
 
 /* 
 
-QUALITY WORK ↓
+QUALITY WORK â†“
 
 */
 
@@ -409,7 +409,7 @@ QUALITY WORK ↓
 
 
 #quality .section__title {
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 1.25;
 }
 
@@ -469,7 +469,7 @@ QUALITY WORK ↓
 
 /* 
 
-STEPS ↓
+STEPS â†“
 
 */
 
@@ -525,7 +525,7 @@ STEPS ↓
 .step__title {
     font-weight: 600;
     font-size: 20px;
-    color-scheme: #243e63;
+    color: #243e63;
     line-height: 1;
 }
 
@@ -550,7 +550,7 @@ STEPS ↓
     margin-top: 20px;
 }
 
-/* VALUES ↓
+/* VALUES â†“
 
 */
 
@@ -656,23 +656,26 @@ STEPS ↓
 
 /*
 
-PRICING ↓
+PRICING â†“
 
 */
 .plan { 
     position: relative;
-    width: 300px;
-    border: 2px solid;
+    width: 320px;
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
     text-align: center;
     z-index: 10;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
-.
 
 #pricing .row {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100%/3);
+    width: 100%;
 }
 
 #pricing .section__para {
@@ -690,83 +693,79 @@ PRICING ↓
 }
 
 #pricing .plan__name {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #1F2937;
 }
 #pricing .plan__top {
     display: flex;
     flex-direction: column;
-    padding-top: 2 rem;
-    padding-bottom: 2rem;
+    align-items: center;
+    padding: 24px 24px 28px;
     text-transform: uppercase;
     line-height: 1.625;
-    margin-top: 72px;
-    border-top: 2px solid rgb(229, 231, 235);;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .plan__target {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
+    color: #1F2937;
 }
 
 #pricing .plan__middle {
-    border: 2px solid rgb(229, 231, 235);
     display: flex;
-    flex: 1 1 0%;
     flex-direction: column;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    padding: 2rem;
-    border-top: 2px solid rgb(229, 231, 235);
-    border-bottom: 2px solid rgb(229, 231, 235);
+    align-items: center;
+    padding: 24px;
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .plan__button-1 {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%,
      rgb(129, 230, 217) 100%);
-     padding: 0.75rem 2rem;
-     font-weight: 700;
-    width: 100%;
+    padding: 12px 28px;
+    font-weight: 700;
     border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
 .plan__button-2 {
-    color: #6030b1;
-    background-color: #f7fafc;
-    padding: 0.75rem 2rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #6415FF 0%, #A78BFA 100%);
+    padding: 12px 28px;
     font-weight: 700;
-    width: 100%;
     border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-radius: 9999px;
+    box-shadow: 0 8px 16px rgba(100, 21, 255, 0.25);
 }
 
 
+.plan__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
 .plan__button-3 {
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%,
-     rgb(254, 178, 178) 100%);
-    padding: 0.75rem 2rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #E86B6B 0%, #F7B7B7 100%);
+    padding: 12px 28px;
     font-weight: 700;
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 0.875rem;
+    border-radius: 9999px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-radius: 9999px;
+    box-shadow: 0 8px 16px rgba(232, 107, 107, 0.25);
 }
 
 .plan__stripe-1 {
@@ -784,15 +783,13 @@ PRICING ↓
 
 .plan__stripe-3 {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 0.5rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%,
-     rgb(254, 178, 178) 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: linear-gradient(90deg, #E86B6B 0%, #F7B7B7 100%);
 }
 
 
@@ -802,22 +799,24 @@ PRICING ↓
 }
 
 #pricing .plan__duration {
-    color: #7c8ba1;
-    font-size: 16px;
-    letter-spacing: 0.1em;
+    color: #9CA3AF;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    font-weight: 600;
 }
 
 #pricing .plan__price {
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #111827;
 }
 
 .plan__feature {
-    margin-top: 20px;
-    font-weight: 500;
-    color: #718096;
+    margin-top: 16px;
+    font-weight: 400;
+    color: #6B7280;
     font-size: 16px;
-    line-height: 1.5;
-    font-size: 18px;
+    line-height: 1.6;
 }
 
 #pricing .container {
@@ -833,7 +832,7 @@ PRICING ↓
 }
 /* 
 
-TESTIMONIALS ↓
+TESTIMONIALS â†“
 
 */
 
@@ -845,7 +844,7 @@ TESTIMONIALS ↓
 
 /* 
 
-START / CALL TO ACTION ↓
+START / CALL TO ACTION â†“
 
 */
 
@@ -859,7 +858,7 @@ START / CALL TO ACTION ↓
 
 /* 
 
-FOOTER ↓
+FOOTER â†“
 
 */
 
@@ -875,7 +874,7 @@ footer {
 
 /* 
 
-MOBILE RESPONSIVENESS ↓
+MOBILE RESPONSIVENESS â†“
 
 */
 
@@ -986,4 +985,14 @@ MOBILE RESPONSIVENESS ↓
     font-size: 36px;
     }
 
+}
+.plan__stripe-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: linear-gradient(90deg, #6415FF 0%, #A78BFA 100%);
 }

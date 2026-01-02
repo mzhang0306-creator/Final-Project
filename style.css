@@ -708,6 +708,11 @@ PRICING â†“
     border-bottom: 1px solid #E5E7EB;
 }
 
+#pricing .plan__top-2, .plan__middle-2, .plan__bottom-2 {
+    background-color: #6415FF;
+
+}
+
 .plan__target {
     font-size: 20px;
     font-weight: 600;
@@ -735,18 +740,19 @@ PRICING â†“
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    border: none;
 }
 
 .plan__button-2 {
-    color: #ffffff;
-    background: linear-gradient(90deg, #6415FF 0%, #A78BFA 100%);
+    color: #6415FF;
+    background: #ffffff;
     padding: 12px 28px;
     font-weight: 700;
     border-radius: 9999px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: 0 8px 16px rgba(100, 21, 255, 0.25);
+    border: none;
 }
 
 
@@ -765,7 +771,7 @@ PRICING â†“
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: 0 8px 16px rgba(232, 107, 107, 0.25);
+    border: none;
 }
 
 .plan__stripe-1 {
@@ -985,14 +991,4 @@ MOBILE RESPONSIVENESS â†“
     font-size: 36px;
     }
 
-}
-.plan__stripe-2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 12px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    background: linear-gradient(90deg, #6415FF 0%, #A78BFA 100%);
 }

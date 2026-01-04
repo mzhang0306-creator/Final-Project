@@ -1173,6 +1173,10 @@ footer {
     cursor: pointer;
 }
 
+.footer__column--link:hover:after {
+    opacity: 1;
+}
+
 .footer__column--link:nth-child(2) {
     margin-top: 24px;
 }

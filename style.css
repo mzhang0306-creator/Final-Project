@@ -1313,6 +1313,15 @@ MOBILE RESPONSIVENESS â†“
     footer {
         padding: 80px 32px;
     }
+
+    .plans {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .plan { 
+        margin-right: 0px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -1348,6 +1357,10 @@ MOBILE RESPONSIVENESS â†“
 
     #pricing .section__para {
         font-size: 14px;
+    }
+
+    #pricing .section__title{
+        font-size: 36px;
     }
 
     .testimonials__description {
@@ -1406,5 +1419,13 @@ MOBILE RESPONSIVENESS â†“
         padding: 0 16px;
         text-align: center;
         align-items: center;
+    }
+
+    #pricing .section__title {
+        line-height: 1.25;
+    }
+
+    .plan__price {
+        font-size: 36px;
     }
 }

@@ -187,7 +187,9 @@ p {
     line-height: 1.5;
 }
 
-
+section {
+    padding: 0 32px;
+}
 body {
     max-width: 100vw;
     overflow-x: hidden;
@@ -464,6 +466,9 @@ QUALITY WORK â†“
 .quality__row {
     width: 100%;
     display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -497,6 +502,7 @@ QUALITY WORK â†“
 
 .quality__description {
     width: 50%;
+    max-width: 576px;
 }
 
 .quality__img--wrapper {
@@ -760,9 +766,12 @@ PRICING â†“
 
 #pricing .plans {
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     justify-content: space-between;
+    gap: 64px;
+    align-items: center;
 }
 
 #pricing .plan__name {
@@ -950,8 +959,8 @@ PRICING â†“
 .plans__blob {
     position: absolute;
     z-index: -1;
-    bottom: -55%;
-    left: 65%;
+    bottom: -18%;
+    left: 29%;
     width: 20%;
 }
 
@@ -967,20 +976,27 @@ TESTIMONIALS â†“
 */
 
 
-#testimonials .row {
-    display: flex;
-    max-width: 100%;
-}
+
 
 .testimonials__img {
     width: 100%;
     max-width: 448px;
 }
 
+#testimonials .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 .testimonial__row {
   display: flex;
-  flex-direction: column;
   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #testimonials .section__tag {
@@ -998,7 +1014,6 @@ TESTIMONIALS â†“
 }
 
 .testimonials__description {
-    text-align: center;
     margin-top: 64px;
     padding: 0;
     max-width: 768px;
@@ -1017,8 +1032,21 @@ TESTIMONIALS â†“
     font-weight: 700;
 }
 
+
+#testimonials .testimonial__row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .testimonial__para {
     margin-top: 1rem;
+    margin-bottom: 2 rem;
     font-weight: 500;
     line-height: 1.625;
     font-size: 16px;
@@ -1026,11 +1054,18 @@ TESTIMONIALS â†“
 }
 
 .testimonial__img {
-    height: 64px;
-    width: 64px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     max-width: 640px;
     margin-top: 3rem;
+}
+
+.testimonial__name {
+    color: #4a5568;
+    line-height: 1.625;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .testimonial__button svg {
@@ -1043,6 +1078,7 @@ TESTIMONIALS â†“
     display: flex;
     align-items: center;
 }
+
 
 .testimonial__bottom {
     flex-direction: column;
@@ -1071,6 +1107,10 @@ TESTIMONIALS â†“
     transform: scale(1.1);
 }
 
+.testimonial__buttons {
+    display: flex;
+    align-items: center;
+}
 /* 
 
 START / CALL TO ACTION â†“
@@ -1370,6 +1410,14 @@ MOBILE RESPONSIVENESS â†“
         color: #1a202c;
         line-height: 1.25;
     }
+
+    .testimonials__img {
+        width: 40%;
+    }
+
+    .testimonials__description {
+        width: calc(100%-40%);
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1378,6 +1426,11 @@ MOBILE RESPONSIVENESS â†“
         font-size: 30px;
     }
     
+    .quality__description {
+        margin-right: 0px;
+        padding-right: 48px;
+    }
+
     .header__description {
         display: flex;
         flex-direction: column;
@@ -1410,9 +1463,13 @@ MOBILE RESPONSIVENESS â†“
         margin-right: 0px;
     }
 
-        .feature__row {
-        padding: 32px 8px;
-        margin: 0 16px;
+    .feature__row {
+    padding: 32px 8px;
+    margin: 0 16px;
+    }
+
+    .testimonials__description {
+      padding-left: 48px;  
     }
 }
 

@@ -34,7 +34,7 @@ ul {
 }
 
 .nav__links {
-    display: none;
+    display: flex;
 }
 
 .nav__link--anchor {
@@ -87,7 +87,6 @@ ul {
 
 .header__email {
     display: flex;
-    flex-direction: column;
     width: 100%;
     position: relative;
     margin: 32px 0;
@@ -102,6 +101,7 @@ ul {
     color: white;
     font-weight: 700;
     text-decoration: none;
+    position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
@@ -109,7 +109,6 @@ ul {
     cursor: pointer;
     transition: 300ms;
     z-index: 9999;
-    height: 68px;
 }
 
 .header__email--btn:hover {
@@ -343,7 +342,6 @@ FEATURES â†“
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
-    width: 100%;
 }
 
 #features
@@ -364,7 +362,7 @@ FEATURES â†“
     display: flex;
     width: calc(100%/3);
     max-width: 250px;
-    margin: 40px auto;
+    margin: 40px 10px;
 }
 
 .feature__description {
@@ -373,13 +371,18 @@ FEATURES â†“
 }
 
 .feature__title {
-    text-align: center;
+    margin-left: 32px;
+    margin-top: 50px;
 
 }
 
 .feature__container {
-    flex-direction: column;
-    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.feature__para {
+    margin-left: 32px;
 }
 
 
@@ -419,7 +422,6 @@ QUALITY WORK â†“
 
 
 #quality .section__title {
-    font-size: 24px;
     font-weight: 700;
     line-height: 1.25;
 }
@@ -497,9 +499,9 @@ STEPS â†“
 .steps__description {
     padding: 32px 0;
     width: 50%;
+    padding: 32px 50px 32px 64px;
+
 }
-
-
 
 .steps__img {
     z-index: 2;
@@ -889,7 +891,7 @@ PRICING â†“
     position: absolute;
     z-index: -1;
     bottom: -55%;
-    left: -10%;
+    left: 65%;
     width: 20%;
 }
 
@@ -983,6 +985,7 @@ TESTIMONIALS â†“
 }
 
 .testimonial__bottom {
+    flex-direction: column;
     align-items: center;
     padding-top: 4px;
     display: flex;
@@ -1041,6 +1044,7 @@ START / CALL TO ACTION â†“
     position: relative;
     overflow: hidden;
     width: 100%;
+    max-width: 640px;
     margin: 0 auto;
 }
 
@@ -1050,9 +1054,9 @@ START / CALL TO ACTION â†“
     max-width: 1024px;
     padding: 0 32px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .start__container {
@@ -1082,7 +1086,6 @@ START / CALL TO ACTION â†“
     margin-top: 24px;
     line-height: 1.5;
     padding: 12px 24px;
-    gap: 12px;
 }
 
 .start__button {
@@ -1097,6 +1100,7 @@ START / CALL TO ACTION â†“
 }
 
 .start__button:nth-child(2) {
+    margin-top: 16px;
     border: 1px solid rgb(160, 174, 192);
     transition: all 300ms ease;
 }
@@ -1123,8 +1127,8 @@ footer {
         align-items: center;
         margin-top: 48px;
         display: flex;
-        z-index: 2;
         flex-direction: column;
+        z-index: 2;
     }
 
 .footer__blob--1 {
@@ -1325,9 +1329,8 @@ MOBILE RESPONSIVENESS â†“
     }
 
     .plans {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
+    flex-direction: column;
+    align-items: center;
     }
 
     .plan { 

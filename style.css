@@ -1279,10 +1279,11 @@ footer {
 }
 
 .footer__columns {
-    justify-content: center;
     margin-top: -48px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer__blob--2 {
@@ -1304,6 +1305,7 @@ footer {
 
 .footer__column--title {
     font-weight: 700;
+    font-size: 28px;
     color: #f7fafc;
     line-height: 1.5;
     margin-top: 48px;
@@ -1314,12 +1316,13 @@ footer {
 
 .footer__column--link {
     color: #f7fafc;
-    font-size: 14px;
+    font-size: 22px;
     margin-top: 12px;
     line-height: 1.5;
     font-weight: 500;
     position: relative;
     cursor: pointer;
+    
 }
 
 .footer__column--link:hover:after {
@@ -1388,7 +1391,7 @@ footer {
 .footer__bottom {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 32px;
 }
@@ -1569,6 +1572,34 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     .footer__column {
         width: calc(100/3);
     }
+
+    .feature__para {
+    width: 100%;
+  }
+
+       .testimonial__row {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    #testimonials .testimonial__row {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
 }
 
 
@@ -1626,14 +1657,29 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
         font-size: 36px;
     }
 
-    .testimonial__bottom {
+    .testimonial__row {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
+    max-width: 1280px;
     align-items: center;
-    justify-content: flex-start;
-    gap: 16px;
-    padding-top: 4px;
-    }
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    #testimonials .testimonial__row {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
 
         .feature__title{
         letter-spacing: 0.025em;
@@ -1650,5 +1696,15 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     width: 100%;
   }
 
+  .feature__para {
+    width: 100%;
+  }
 
-
+  .footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+}

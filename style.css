@@ -385,7 +385,7 @@ FEATURES Ã¢â€ â€œ
 }
 
 #features .section__title {
-    align-items: center;
+    text-align: center;
 }
 
 
@@ -515,6 +515,7 @@ QUALITY WORK Ã¢â€ â€œ
     margin: 0 56px;
     z-index: 2;
     display: flex;
+    position: relative;
 }
 
 .quality__img {
@@ -1179,7 +1180,7 @@ START / CALL TO ACTION Ã¢â€ â€œ
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 640px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -1192,6 +1193,7 @@ START / CALL TO ACTION Ã¢â€ â€œ
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .start__container {
@@ -1620,4 +1622,13 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     .plan__price {
         font-size: 36px;
     }
+
+    .testimonial__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-top: 4px;
+}
 }

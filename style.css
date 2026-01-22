@@ -112,7 +112,6 @@ ul {
 
 
 header .row__header {
-    flex-direction: column;
     align-items: center;
 }
 .header__email--btn {
@@ -771,7 +770,6 @@ PRICING Ã¢â€ â€œ
 
 #pricing .plans {
     display: flex;
-    flex-direction: column;
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -1498,10 +1496,6 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     align-items: center;
     }
 
-    .plan { 
-        margin-right: 0px;
-    }
-
     .feature__row {
     padding: 32px 8px;
     margin: 0 16px;
@@ -1514,6 +1508,20 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     .feature__para {
         max-width: none;
     }
+
+    #pricing .plans {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+header .row__header {
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media(max-width: 768px) {
@@ -1577,7 +1585,12 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     width: 100%;
   }
 
-       .testimonial__row {
+  .testimonials__img {
+    width: 100%;
+    max-width: 448px;
+  }
+
+    .testimonial__row {
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -1599,7 +1612,22 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
+    }
+
+    #pricing .plans {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
 }
+    header .row__header {
+    flex-direction: column;
+    align-items: center;
+}
+
 }
 
 
@@ -1706,5 +1734,20 @@ MOBILE RESPONSIVENESS Ã¢â€ â€œ
     flex-direction: column;
     align-items: center;
     margin-top: 32px;
+}
+
+    #pricing .plans {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+header .row__header {
+    flex-direction: column;
+    align-items: center;
 }
 }

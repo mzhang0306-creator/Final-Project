@@ -1216,10 +1216,10 @@ START / CALL TO ACTION Ã¢â€ â€œ
 
 .start__buttons {
     display: flex;
-    flex-direction: column;
     margin-top: 24px;
     line-height: 1.5;
     padding: 12px 24px;
+    gap: 24px;
 }
 
 .start__button {
@@ -1234,7 +1234,6 @@ START / CALL TO ACTION Ã¢â€ â€œ
 }
 
 .start__button:nth-child(2) {
-    margin-top: 16px;
     border: 1px solid rgb(160, 174, 192);
     transition: all 300ms ease;
 }

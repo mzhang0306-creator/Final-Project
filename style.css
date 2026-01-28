@@ -1805,5 +1805,14 @@ header .row__header {
     cursor: pointer;
     transition: 300ms;
     z-index: 9999;
+    padding: 24px 0;
+    margin-top: 24px;
 }
+
+.header__email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin: 32px 0;
 }

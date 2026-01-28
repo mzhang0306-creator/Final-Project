@@ -1520,6 +1520,7 @@ header .row__header {
     flex-direction: column;
     align-items: center;
 }
+
 }
 
 @media(max-width: 768px) {
@@ -1645,6 +1646,21 @@ header .row__header {
     padding: 12px 24px;
     gap: 24px;
 }
+.quality__row {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    gap: 50px;
+    align-items: center;
+}
+
+.img__row {
+    align-items: center;
+}
+
 }
 
 
@@ -1815,4 +1831,5 @@ header .row__header {
     width: 100%;
     position: relative;
     margin: 32px 0;
+}
 }
